@@ -20,11 +20,12 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title UNIDAD 1
-              h1.home-title.mb-4.text-uppercase Fundamentos del Pensamiento Algorítmico
-              p.descripcion.mb-4 En esta primera unidad, se estudiarán los fundamentos esenciales del pensamiento algorítmico, destacando su rol en la resolución de problemas mediante el diseño de algoritmos estructurados. Además, se explorarán conceptos clave como los algoritmos, la lógica detrás de su construcción, y sus formas de representación a través de pseudocódigo y diagramas de flujo.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4 Prepárate para aplicar estos principios en diversas áreas, desde la informática hasta la administración y educación. #[strong ¡Inicia tu viaje para dominar la creación de soluciones eficientes y prácticas!]
+              p.home-main-title Introducción a la educación y pedagogía
+              h1.home-title.mb-4.text-uppercase La educación en el contexto contemporáneo
+              p.descripcion.mb-4 En esta En un mundo de constantes transformaciones, la educación enfrenta desafíos significativos impulsados por la digitalización, la diversidad y la globalización. La unidad "La educación en el contexto contemporáneo" le permitirá analizar estas fuerzas que impactan el sistema educativo, proporcionando herramientas para integrar tecnologías, fomentar la equidad y adaptarte a un entorno multicultural.
+                br
+                br
+                | #[b ¡Prepárese para afrontar los retos educativos actuales con conocimiento y adaptabilidad!]
 
 
               .button-container.mt-auto
@@ -67,7 +68,7 @@ export default {
   .home-main-title
     font-size: 18px
     font-weight: bold
-    color: $color-primario
+    color: $color-acento-contenido
   .home-content
     background-color: white
   .info-section

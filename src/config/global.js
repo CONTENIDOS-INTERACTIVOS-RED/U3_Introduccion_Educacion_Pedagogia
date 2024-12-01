@@ -20,7 +20,7 @@ export default {
       {
         nombreRuta: 'introduccion',
         icono: 'fas fa-info-circle',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '',
         titulo: 'Introducción',
         desarrolloContenidos: true,
@@ -28,7 +28,7 @@ export default {
       {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '1',
         titulo: 'Definición de algoritmo',
         desarrolloContenidos: true,
@@ -36,19 +36,19 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Sistema',
+            titulo: 'Evolución de las tecnologías educativas',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Pensamiento Sistémico o lógico',
+            titulo: 'Herramientas digitales en el aula',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Eficiencia de los algoritmos',
+            titulo: 'Aprendizaje en línea y su impacto',
             hash: 't_1_3',
           },
         ],
@@ -56,42 +56,66 @@ export default {
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '2',
-        titulo: 'Lógica algorítmica: secuencias, condiciones, ciclos',
+        titulo: 'Teorías pedagógicas clásicas y contemporáneas     ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Metodología para la solución de algoritmos',
+            titulo: 'Principios de educación inclusiva',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Secuencias, condiciones, ciclos',
+            titulo: 'Estrategias pedagógicas para la inclusión',
             hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Diversidad cultural y de género',
+            hash: 't_2_3',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '3',
-        titulo:
-          'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+        titulo: 'Desafíos educativos en un mundo globalizado',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+            titulo: 'Educación y globalización',
             hash: 't_3_1',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Competencias interculturales en el aula',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'La educación como herramienta de conexión cultural',
+            hash: 't_3_3',
+          },
         ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        unidad: 'UNIDAD 3.',
+        numero: '',
+        titulo: 'Sintesis',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -141,73 +165,98 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Algoritmo',
+      termino: 'Accesibilidad',
       significado:
-        'secuencia de pasos lógicos, finitos que resuelven un problema particular.',
+        'facilidad con la que todos los estudiantes pueden acceder a recursos, entornos y oportunidades educativas.',
     },
     {
-      termino: 'Ciclos',
+      termino: 'Aprendizaje en línea',
       significado:
-        'conjunto de instrucciones de repetición que se llevan a cabo mientras se cumple una condición.',
+        'modalidad de educación que utiliza plataformas digitales para impartir cursos y acceder a materiales educativos.',
     },
     {
-      termino: 'Condiciones',
+      termino: 'Colaboración',
       significado:
-        'etapa en la que el algoritmo debe tomar una decisión y según la respuesta obtenida continuará su proceso.',
+        'trabajo conjunto entre estudiantes, educadores y comunidades para lograr objetivos educativos comunes.',
     },
     {
-      termino: 'Constante',
+      termino: 'Competencias digitales',
       significado:
-        'es una variable almacenada en memoria y cuyo contenido no cambiará durante todo el proceso de ejecución del algoritmo.',
+        'habilidades necesarias para utilizar eficazmente las tecnologías de información y comunicación en el aprendizaje.',
     },
     {
-      termino: 'Diagrama de flujo',
+      termino: 'Diversidad',
       significado:
-        'representación gráfica de un proceso, ilustran paso a paso la lógica que debe seguir el programa de manera sencilla.',
+        'variedad de características y experiencias que los estudiantes aportan a un entorno educativo, incluyendo diferencias culturales, lingüísticas y de aprendizaje.',
     },
     {
-      termino: 'Eficiencia',
-      significado: 'seleccionar la manera óptima para resolver un problema.',
+      termino: 'Educación',
+      significado:
+        'proceso de adquirir conocimientos, habilidades y valores a través de la enseñanza y el aprendizaje.',
     },
     {
-      termino: 'Identificador',
+      termino: 'Evaluación ',
       significado:
-        'corresponde al nombre asignado a una variable en la memoria',
+        'proceso de medir y valorar el aprendizaje de los estudiantes para mejorar la enseñanza y el rendimiento académico.',
     },
     {
-      termino: 'Memoria',
+      termino: 'Globalización',
       significado:
-        'espacio reservado dentro del sistema que contiene un nombre y una variable',
+        'proceso mediante el cual las interacciones y conexiones entre países y culturas se intensifican, afectando diversos aspectos de la vida, incluida la educación.',
     },
     {
-      termino: 'Proceso',
+      termino: 'Inclusión',
       significado:
-        'conjunto de instrucciones que "manipulan" los datos y entregan la solución al problema.',
+        'práctica educativa que busca garantizar que todos los estudiantes, independientemente de sus diferencias, tengan acceso a las mismas oportunidades de aprendizaje.',
     },
     {
-      termino: 'Programa',
+      termino: 'Innovación',
       significado:
-        '"Conjunto de instrucciones que sigue la computadora para alcanzar un resultado específico" (Von Neumann 1946)',
+        'introducción de nuevas ideas, métodos o tecnologías en el ámbito educativo para mejorar la enseñanza y el aprendizaje.',
     },
     {
-      termino: 'Pseudocódigo',
+      termino: 'Interactividad',
       significado:
-        'permite escribir de manera ordenada la secuencia de pasos lógicos que el algoritmo debe ejecutar, es universal lo que implica su comprensión y lectura sin requerirse un lenguaje de programación formal para su escritura',
+        'capacidad de los estudiantes para interactuar con el contenido de aprendizaje y entre ellos, facilitada por tecnologías educativas.',
     },
     {
-      termino: 'Secuencia',
+      termino: 'Interactividad',
       significado:
-        'ejecución de instrucciones de manera ordenada y jerárquica, lineal, una tras otra y sin interrupción hasta su finalización',
+        'capacidad de los estudiantes para interactuar con el contenido de aprendizaje y entre ellos, facilitada por tecnologías educativas.',
     },
     {
-      termino: 'Sistema',
-      significado:
-        'conjunto de elementos que tienen una relación directa entre sí y que interactúan de manera coordinada para obtener un objetivo específico',
+      termino: 'Pedagogía',
+      significado: 'estudio y práctica de métodos y estrategias de enseñanza.',
     },
     {
-      termino: 'Variable',
+      termino: 'Personalización',
       significado:
-        'diferente a la constante, la variable sí cambia "varía" su valor según los procedimientos que se lleven a cabo dentro del algoritmo.',
+        'adaptación del proceso educativo a las necesidades y características individuales de cada estudiante.',
+    },
+    {
+      termino: 'Resiliencia',
+      significado:
+        'capacidad de los estudiantes para adaptarse y superar desafíos y adversidades en su proceso educativo.',
+    },
+    {
+      termino: 'Tecnología',
+      significado:
+        'herramientas y dispositivos que permiten la creación, distribución y gestión de información.',
+    },
+    {
+      termino: 'Accesibilidad',
+      significado:
+        'facilidad con la que todos los estudiantes pueden acceder a recursos, entornos y oportunidades educativas.',
+    },
+    {
+      termino: 'Aprendizaje en línea',
+      significado:
+        'modalidad de educación que utiliza plataformas digitales para impartir cursos y acceder a materiales educativos.',
+    },
+    {
+      termino: 'Colaboración',
+      significado:
+        'trabajo conjunto entre estudiantes, educadores y comunidades para lograr objetivos educativos comunes.',
     },
   ],
   complementario: [],

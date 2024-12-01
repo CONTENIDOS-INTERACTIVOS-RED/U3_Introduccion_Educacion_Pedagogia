@@ -1,1 +1,1 @@
-module.exports = 'Unidad 2. Teorías y enfoques para la resolución pacífica de conflictos'
+module.exports = 'unidad 3: La educación en el contexto contemporáneo'

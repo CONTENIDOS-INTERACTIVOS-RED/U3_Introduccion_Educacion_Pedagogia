@@ -9,11 +9,11 @@
       .col-lg-7
         p.mb-4(data-aos="fade-right") La globalización ha transformado el mundo de manera profunda, afectando todos los aspectos de la vida, incluida la educación. Este fenómeno no sólo ha ampliado el acceso a información y recursos, sino que también ha planteado nuevos retos y oportunidades para las instituciones educativas. Esta sección busca explorar la interrelación entre educación y globalización, destacando los desafíos y beneficios que surgen en este contexto. A continuación, podrá ampliar la información, a través del PDF Educación y globalización.
 
-        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexos_Educacion_y_globalizacion.pdf')" target="_blank")(data-aos="flip-up")
           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p <strong>Anexo. </strong> Eduación y Globalización
+            p <strong>Anexo. </strong> Educación y Globalización
       .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/53.png', alt='')
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 Competencias interculturales en el 
@@ -99,7 +99,7 @@
       .col-lg-7
         p.mb-4(data-aos="fade-right") En el contexto de un mundo cada vez más interconectado, la educación desempeña un papel crucial como herramienta de conexión cultural. A través de la educación, las personas no solo adquieren conocimientos académicos, sino también habilidades que les permiten comprender y relacionarse con individuos de diferentes culturas. Esta sección tiene como objetivo explorar el rol de la educación en la promoción de la conexión cultural, destacando su importancia y las estrategias que facilitan este proceso en el ámbito educativo. A continuación, podrá ampliar la información, a través del PDF La educación como herramienta de conexión cultural.
 
-        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexos_La educacion_herramienta_conexion_cultural.pdf')" target="_blank")(data-aos="flip-up")
           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

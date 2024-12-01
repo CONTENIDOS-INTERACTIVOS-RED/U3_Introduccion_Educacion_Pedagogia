@@ -9,7 +9,7 @@
       .col-lg-7
         p.mb-4(data-aos="fade-right") La educación inclusiva es un enfoque que busca garantizar el derecho a la educación para todos los estudiantes, independientemente de sus habilidades, antecedentes o necesidades específicas. Este modelo promueve un ambiente educativo que valora la diversidad y proporciona a cada estudiante, las oportunidades necesarias para alcanzar su máximo potencial. Comprender los principios fundamentales de la educación inclusiva, es esencial para crear espacios de aprendizaje equitativos y accesibles. A continuación, en el PDF Principios de educación inclusiva, podrá conocer cada uno de ellos. 
 
-        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexos_Principios_educacion_inclusiva.pdf')" target="_blank")(data-aos="flip-up")
           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -197,10 +197,10 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Tipos de conflictos
-                  p Exploremos los factores que desencadenan estos conflictos, profundizando en cómo influyen en su surgimiento y evolución, a través del PDF Tipos de conflicto.
+                  h3.mb-1 Evaluación formativa y retroalimentación
+                  p Lo invitamos a leer el PDF Evaluación formativa y retroalimentación, para conocer sobre esta temática.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexos_Evaluacion_formativa.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-arrow-right
     h3 Fomento de un clima de aula positivo
@@ -274,8 +274,8 @@
           | Lo invitamos a escuchar el siguiente pódcast  para ampliar la información.
         div(style="width: 100%")
           TarjetaAudio.color-primario.mb-3(
-            texto="Texto de muestra  "
-            :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+            texto="Diversidad cultural en el aula"
+            :audio="require('../../assets/curso/podcast/podcast_diversidad_cultural.mp3')"
             tiempo
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )

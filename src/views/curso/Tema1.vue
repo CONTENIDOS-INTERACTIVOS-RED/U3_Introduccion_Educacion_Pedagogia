@@ -1,10 +1,10 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'unidad 3: La educación en el contexto contemporáneo'" :subTitulo="'1. Educación en la era digital: tecnologías educativas'")
+  BannerInterno(:titulo="'Unidad 3. La educación en el contexto contemporáneo'" :subTitulo="'1. Educación en la era digital: tecnologías educativas'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden.bg-1
     p.mb-4 La evolución de las tecnologías educativas, ha sido un proceso continuo que ha transformado la forma en que se enseña y se aprende. A través de la historia, la educación ha vinculado a su desarrollo, cambios que se han dado, de forma paralela, con las conductas en las que la sociedad misma ha cambiado.
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1 Evolución de las tecnologías educativas  
+      h2 #[span 1.1] Evolución de las tecnologías educativas  
     p.mb-4 Desde la invención de la imprenta hasta la era digital actual, cada avance tecnológico ha influido significativamente en el acceso a la educación, en la metodología docente y en la experiencia de aprendizaje del estudiante. Exploremos los hitos más relevantes en la evolución de estas tecnologías, analizando su impacto y su relevancia en el contexto educativo contemporáneo:   
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-6.mb-4(data-aos="zoom-in-up")
@@ -77,7 +77,7 @@
             .col-lg
               p.mb-0 Sin embargo, estos avances también presentan desafíos, como la necesidad de formación docente, la protección de datos y el desarrollo de un uso responsable y crítico de estas herramientas (Selwyn, 2016).
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.2 Herramientas digitales en el aula     
+      h2 #[span 1.2] Herramientas digitales en el aula     
     p.mb-4 Las herramientas digitales han revolucionado el campo educativo, brindando a docentes y estudiantes, un amplio abanico de recursos para enriquecer el aprendizaje. Su integración permite optimizar la colaboración, mejorar el acceso a la información y personalizar las estrategias de enseñanza, adaptándose a las necesidades de cada estudiante. Exploremos cómo las herramientas digitales más destacadas en el ámbito educativo y sus aplicaciones prácticas en el aula, así como estrategias para potenciar su impacto en la enseñanza.
     h3 Herramientas de gestión y organización del aula
     p.mb-4 Imaginemos que estamos en una clase donde todo el contenido, tareas y materiales, está disponible en un solo lugar, sin necesidad de cargar papeles o preocuparnos por perder apuntes. Las plataformas de gestión de aulas virtuales, como Google Classroom y Microsoft Teams, hacen esto posible, convirtiendo el aula en un espacio digital, donde todo está a un clic.   
@@ -226,7 +226,7 @@
               img(src="@/assets/curso/temas/21.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Estas herramientas, no solo hacen que la clase sea más atractiva, sino que también nos permiten participar de manera activa en nuestro aprendizaje. En lugar de solo escuchar o leer, podemos interactuar, crear y jugar, lo que hace que el aprendizaje sea más significativo y nos prepara mejor para el uso de herramientas digitales en el futuro.
-    h4 Herramientas para la creación de contenidos y recursos didácticos
+    h4 Plataformas de evaluación y seguimiento del aprendizaje
     p.mb-4 En el contexto educativo, evaluar y seguir el progreso de los estudiantes, es fundamental para ajustar las clases y asegurarse que todos estén avanzando en su aprendizaje. Hoy en día, plataformas digitales como Moodle, Edmodo y Quizizz, facilitan esta tarea, porque permiten a los docentes no solo medir el rendimiento, sino también dar retroalimentación de manera rápida y accesible. Conozcamos más sobre cada una de ellas:
     .row.justify-content-center.align-items-stretch.mb-5
       div.col-lg-4.mb-4(data-aos="zoom-in-up")
@@ -265,9 +265,9 @@
             .col-lg
               p.mb-0 Al usar plataformas como Moodle, Edmodo y Quizizz, los docentes no solo pueden evaluar el conocimiento de sus estudiantes, sino también monitorear su progreso de manera precisa. Esto permite identificar a quienes necesitan apoyo adicional y adaptar la enseñanza para que todos puedan avanzar. Así, estas herramientas ayudan a personalizar el aprendizaje y garantizan que cada estudiante reciba la atención necesaria para alcanzar su máximo potencial.
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 Aprendizaje en línea y su impacto
+      h2 #[span 1.3] Aprendizaje en línea y su impacto
     p.mb-4 El aprendizaje en línea, ha revolucionado la educación al romper las barreras tradicionales del tiempo y el espacio, permitiendo que estudiantes de diversas partes del mundo, accedan al conocimiento sin necesidad de asistir físicamente a un aula. Con el avance de las tecnologías digitales y el incremento de plataformas educativas, el aprendizaje en línea ofrece modalidades flexibles y personalizables, que se adaptan a distintos estilos de aprendizaje. Sin embargo, también presenta desafíos que requieren ser comprendidos y abordados adecuadamente. Exploremos los aspectos claves del aprendizaje en línea, su evolución, y su impacto en la educación contemporánea.
-    h3 Herramientas para la creación de contenidos y recursos didácticos
+    h3 Evolución del aprendizaje en línea
     p.mb-4 El aprendizaje en línea ha evolucionado significativamente a lo largo del tiempo, transformando la manera en que se enseña y se aprende. En sus inicios, la educación a distancia dependía del envío de materiales impresos por correo, lo que permitía a los estudiantes estudiar desde casa, pero limitaba las interacciones y hacía que la comunicación fuera un proceso lento. Durante las décadas de 1960 y 1970, algunas universidades comenzaron a ofrecer cursos por correspondencia, aunque la falta de interacción en tiempo real, generaba una sensación de aislamiento en el aprendizaje.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3.mb-lg-0.mb-3(data-aos="fade-right")
@@ -279,8 +279,8 @@
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/27.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        .p-4.mb-3(style="background-color: #fffbe8 ")
-          p.mb-0 Un hito importante fue la aparición de los MOOCs (Massive Open Online Courses ), o Cursos Abiertos Masivos en Línea, ofrecidos por universidades reconocidas. Estos cursos democratizaron el acceso a la educación, permitiendo que cualquier persona se inscribiera y aprendiera sobre diversos temas, brindando oportunidades a millones de estudiantes en todo el mundo para aprender de manera gratuita y a su propio ritmo (Fernández, 2018). 
+        .p-4.mb-3(style="background-color: #fffbe8")
+          p.mb-0 Un hito importante fue la aparición de los MOOCs (#[em Massive Open Online Courses]), o Cursos Abiertos Masivos en Línea, ofrecidos por universidades reconocidas. Estos cursos democratizaron el acceso a la educación, permitiendo que cualquier persona se inscribiera y aprendiera sobre diversos temas, brindando oportunidades a millones de estudiantes en todo el mundo para aprender de manera gratuita y a su propio ritmo (Fernández, 2018). 
         p.mb-0 Hoy en día, el aprendizaje en línea no se limita a la educación completamente virtual; ha evolucionado hacia un modelo híbrido, que combina lo mejor de ambos mundos: la flexibilidad del aprendizaje en línea y la interacción personal de la educación presencial. Además, se están explorando nuevas tecnologías, como la realidad virtual y la inteligencia artificial, que prometen enriquecer aún más la experiencia educativa en línea (Martínez, 2019).
     h3 Modalidades del aprendizaje en línea
     p.mb-4 El aprendizaje en línea, ofrece una variedad de modalidades adaptadas a las necesidades y preferencias de cada estudiante. Comprender estas opciones es fundamental, debido a que cada modalidad presenta características que pueden influir en la experiencia educativa:
@@ -340,23 +340,27 @@
 
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://revistas.ucm.es/index.php/HICS/article/view/HICS9898110500A" target="_blank" rel="noopener noreferrer") Castells, M. (1999). La era de la información:  Economía, sociedad y cultura. Alianza Editorial.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://dialnet.unirioja.es/servlet/articulo?codigo=7504218" target="_blank" rel="noopener noreferrer") Del Valle Mejías, M. E. (2020). Edmodo: una plataforma de e-learning para la inclusión. Revista de Comunicación de la SEECI, (52), 17-28.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/fqCWZ0UghVo?si=sBDBMrNGArOyk7cl" target="_blank" rel="noopener noreferrer") Innovación educativa (2021) Educación en la era digital. Un caso de exito. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 </template>

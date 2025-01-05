@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'unidad 3: La educación en el contexto contemporáneo'" :subTitulo="'INTRODUCCIÓN'")
+  BannerInterno(:titulo="'Unidad 3. La educación en el contexto contemporáneo'" :subTitulo="'INTRODUCCIÓN'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
     p.mb-5 En el contexto actual, la educación enfrenta desafíos sin precedentes, que exigen una reflexión profunda y estratégica, sobre el aprendizaje en un mundo en constante transformación. La unidad "La educación en el contexto contemporáneo" ha sido diseñada para estudiar algunos factores que impulsan cambios significativos en el sistema educativo: la digitalización, la diversidad y la globalización. A través del análisis de estos temas, se busca proporcionar herramientas fundamentales para comprender y enfrentar los retos de una educación moderna y de calidad.
     .row.justify-content-center.mb-5
@@ -17,7 +17,7 @@
             .col-lg-auto
               img(src="@/assets/curso/temas/2.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 Al concluir esta unidad, se prevé que se hayan desarrollado habilidades esenciales para analizar los desafíos actuales en la educación, particularmente en lo referente a las tecnologías digitales, la inclusión y la globalización. Este conocimiento no solo contribuye al fortalecimiento de las competencias pedagógicas, sino también a la creación de entornos educativos inclusivos y adaptados a las nuevas realidades sociales y tecnológicas
+              p.mb-0 Al concluir esta unidad, se prevé que se hayan desarrollado habilidades esenciales para analizar los desafíos actuales en la educación, particularmente en lo referente a las tecnologías digitales, la inclusión y la globalización. Este conocimiento no solo contribuye al fortalecimiento de las competencias pedagógicas, sino también a la creación de entornos educativos inclusivos y adaptados a las nuevas realidades sociales y tecnológicas.
 
     
 

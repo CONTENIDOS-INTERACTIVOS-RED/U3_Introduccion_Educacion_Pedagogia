@@ -20,9 +20,9 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title Introducción a la educación y pedagogía
-              h1.home-title.mb-4.text-uppercase La educación en el contexto contemporáneo
-              p.descripcion.mb-4 En esta En un mundo de constantes transformaciones, la educación enfrenta desafíos significativos impulsados por la digitalización, la diversidad y la globalización. La unidad "La educación en el contexto contemporáneo" le permitirá analizar estas fuerzas que impactan el sistema educativo, proporcionando herramientas para integrar tecnologías, fomentar la equidad y adaptarte a un entorno multicultural.
+              p.home-main-title UNIDAD 3
+              h1.home-title.mb-4 La educación en el contexto contemporáneo
+              p.descripcion.mb-4 En un mundo de constantes transformaciones, la educación enfrenta desafíos significativos impulsados por la digitalización, la diversidad y la globalización. La unidad "La educación en el contexto contemporáneo" le permitirá analizar estas fuerzas que impactan el sistema educativo, proporcionando herramientas para integrar tecnologías, fomentar la equidad y adaptarte a un entorno multicultural.
                 br
                 br
                 | #[b ¡Prepárese para afrontar los retos educativos actuales con conocimiento y adaptabilidad!]
@@ -62,7 +62,7 @@ export default {
       max-width: 1378px
   .home-title
     font-size: 26px !important
-    font-weight: normal
+    font-weight: bold
     @media (min-width: 992px)
       font-size: 38px !important
   .home-main-title

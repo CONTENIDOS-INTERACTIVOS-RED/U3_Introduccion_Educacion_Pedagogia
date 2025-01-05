@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'unidad 3: La educación en el contexto contemporáneo'" :subTitulo="'2. Teorías pedagógicas clásicas y contemporáneas     '")
+  BannerInterno(:titulo="'Unidad 3. La educación en el contexto contemporáneo'" :subTitulo="'2. Inclusión y diversidad en la educación'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
     p.mb-4 Un asunto relevante de la educación en el presente, es el tema de los procesos formativos desde y para la diferencia, dado que los derechos de todas las personas en el planeta, son parte del lenguaje universal de todos los asuntos relacionados con el desarrollo humano, en todas sus facetas y dimensiones.
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -285,7 +285,31 @@
 
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.redalyc.org/journal/679/67952833001/html/" target="_blank" rel="noopener noreferrer") Fernández, A. (2020). Estrategias para la educación inclusiva. Editorial Inclusión.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.redalyc.org/journal/4677/467761669009/html/" target="_blank" rel="noopener noreferrer") López, J. (2020). Currículo inclusivo: reflexiones y prácticas. Ediciones Pedagógicas.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span Byram, M. (1997). Teaching and Assessing Intercultural Communicative Competence. Multilingual Matters.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/MzaM-Adl0rU?si=ZWJnUyJl4QRp1n5D" target="_blank" rel="noopener noreferrer") Space Diseño. (11 jul 2019). Concepto de Tecnología Educativa.
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 
